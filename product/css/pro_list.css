@@ -1,0 +1,63 @@
+body{
+  font-family: "游ゴシック", "YuGothic", sans-serif;
+  font-weight: bold;
+}
+
+header{
+  width: 100%;
+  line-height: 0;
+}
+
+.container{
+  display: flex;
+}
+
+.box1{
+  width:150px;
+  height: 1080px; 
+  background-color: #F2F2F2;
+  line-height: 0;
+}
+
+.box2{
+  width:100%;
+  margin:40px 0 0 50px; 
+
+}
+
+.btn{
+  width:150px;
+}
+
+
+.btn:hover{
+  opacity:0.6;
+  position:relative;
+  top:1px;
+  left:1px;
+}
+
+.in_btn{
+  color:#FFF;
+  background-color:#F4BD51;
+  padding: 12px 50px;
+  font-size: 14px;
+  margin:0 5px 40px 0; 
+  border-radius: 5%;
+  border:0;
+}
+
+input:hover{
+  opacity:0.8;
+  position:relative;
+  top:1px;
+  left:1px;
+}
+
+.text1{
+  margin-bottom: 30px;
+}
+
+.text2{
+  margin-top: 30px;
+}
